@@ -26,7 +26,7 @@ def main(argv):
         guide(sys.argv[0])
         sys.exit(2)
     
-    NwafuLogin(username=username, password=passwd).log_out()
+    #NwafuLogin(username=username, password=passwd).log_out()
     NwafuLogin(username=username, password=passwd).log_in()
 
 if __name__ ==  "__main__":
