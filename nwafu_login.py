@@ -5,7 +5,6 @@ import hmac
 import hashlib
 import math
 
-
 class ShenlanEncode(object):
     _PADCHAR = "="
     _ALPHA = "LVoJPiCN2R8G90yg+hmFHuacZ1OWMnrsSTXkYpUq/3dlbfKwv6xztjI7DeBE45QA"
